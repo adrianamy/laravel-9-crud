@@ -17,5 +17,5 @@ use App\Http\Controllers\CompanyController;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//table company
 Route::resource('companies', CompanyController::class);
